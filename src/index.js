@@ -1,7 +1,7 @@
 import messages_fr_cm_csu from "./translations/fr_CM.json";
 
 const DEFAULT_CONFIG = {
-  "translations": [{ key: 'frCsu', messages: messages_fr_cm_csu }],
+  "translations": [{ key: 'fr', messages: messages_fr_cm_csu }],
 }
 
 export const LanguageFrCmrCSUModule = (cfg) => {
