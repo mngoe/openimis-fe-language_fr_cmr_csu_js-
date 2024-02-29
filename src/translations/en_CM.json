@@ -1,7 +1,7 @@
 {
     "appName": "openIMIS",
     "close": "Close",
-    "currency": "$",
+    "currency": "FCFA",
     "rowsPerPage": "Rows Per Page",
     "ofPages": "of",
     "selectAll": "Select All",
@@ -1791,8 +1791,8 @@
     "paymentPlan.ReplacePaymentPlan.mutationLabel": "Replace Payment Plan - {label}",
     "mainMenu": "Legal and Finance",
     "menu": {
-        "invoices": "Invoices",
-        "bills": "Bills",
+        "invoices": " Sale invoices",
+        "bills": "Purchase invoices",
         "individuals": "",
         "groups": ""
     },
@@ -1806,7 +1806,7 @@
         "cancel": "Cancel"
     },
     "invoice": {
-        "pageTitle": "Invoice {label}",
+        "pageTitle": " Sale invoice {label}",
         "headPanelTitle": "General Information",
         "subject": "Subject",
         "thirdparty": "Recipient",
@@ -1814,7 +1814,7 @@
         "codeTp": "Code Recipient",
         "codeExt": "Code External System",
         "dateDue": "Date Due",
-        "dateInvoice": "Date Invoice",
+        "dateInvoice": "Date  Sale invoice",
         "dateValidFrom": "From",
         "dateValidTo": "To",
         "datePayed": "Date Payed",
@@ -1844,12 +1844,12 @@
                 "title": "Delete {code}?",
                 "message": "Deleting data does not mean erasing it from openIMIS database. The data will only be deactivated from the viewed list."
             },
-            "mutationLabel": "Delete Invoice {code}"
+            "mutationLabel": "Delete  Sale invoice {code}"
         }
     },
     "invoices": {
-        "pageTitle": "Invoices",
-        "searcherResultsTitle": "{invoicesTotalCount} Invoices Found"
+        "pageTitle": " Sale invoices",
+        "searcherResultsTitle": "{invoicesTotalCount}  Sale invoices Found"
     },
     "invoiceLineItems": {
         "label": "Line Items",
@@ -1890,18 +1890,18 @@
         "paymentOrigin": "Payment Origin",
         "create": {
             "label": "Create new Payment",
-            "mutationLabel": "Create Invoice Payment {invoicePaymentLabel} for {invoiceCode}"
+            "mutationLabel": "Create  Sale invoice Payment {invoicePaymentLabel} for {invoiceCode}"
         },
         "update": {
             "label": "Update Payment",
-            "mutationLabel": "Update Invoice Payment {invoicePaymentLabel} of {invoiceCode}"
+            "mutationLabel": "Update  Sale invoice Payment {invoicePaymentLabel} of {invoiceCode}"
         },
         "delete": {
             "confirm": {
                 "title": "Delete {invoicePaymentLabel}?",
                 "message": "Deleting data does not mean erasing it from openIMIS database. The data will only be deactivated from the viewed list."
             },
-            "mutationLabel": "Delete Invoice Payment {invoicePaymentLabel} of {invoiceCode}"
+            "mutationLabel": "Delete  Sale invoice Payment {invoicePaymentLabel} of {invoiceCode}"
         }
     },
     "invoiceEvents": {
@@ -1922,11 +1922,11 @@
     "invoiceEventMessage": {
         "create": {
             "label": "Create new Comment",
-            "mutationLabel": "Create Invoice Event Message for {invoiceCode}"
+            "mutationLabel": "Create  Sale invoice Event Message for {invoiceCode}"
         }
     },
     "bill": {
-        "pageTitle": "Bill {label}",
+        "pageTitle": "Purchase invoice {label}",
         "headPanelTitle": "General Information",
         "subject": "Subject",
         "thirdparty": "Sender",
@@ -1934,7 +1934,7 @@
         "codeTp": "Code Sender",
         "codeExt": "Code External System",
         "dateDue": "Date Due",
-        "dateBill": "Date Bill",
+        "dateBill": "Date invoice",
         "dateValidFrom": "From",
         "dateValidTo": "To",
         "datePayed": "Date Payed",
@@ -1964,13 +1964,13 @@
                 "title": "Delete {code}?",
                 "message": "Deleting data does not mean erasing it from openIMIS database. The data will only be deactivated from the viewed list."
             },
-            "mutationLabel": "Delete Bill {code}"
+            "mutationLabel": "Delete Purchase invoice {code}"
         },
         "selection.count": "Selected {count} bill(s)"
     },
     "bills": {
-        "pageTitle": "Bills",
-        "searcherResultsTitle": "{billsTotalCount} Bills Found"
+        "pageTitle": "Purchase invoices",
+        "searcherResultsTitle": "{billsTotalCount} Purchase invoices Found"
     },
     "billItems": {
         "label": "Line Items",
@@ -2013,18 +2013,18 @@
         "paymentOrigin": "Payment Origin",
         "create": {
             "label": "Create new Payment",
-            "mutationLabel": "Create Bill Payment {billPaymentLabel} for {billCode}"
+            "mutationLabel": "Create Purchase invoice Payment {billPaymentLabel} for {billCode}"
         },
         "update": {
             "label": "Update Payment",
-            "mutationLabel": "Update Bill Payment {billPaymentLabel} of {billCode}"
+            "mutationLabel": "Update Purchase invoice Payment {billPaymentLabel} of {billCode}"
         },
         "delete": {
             "confirm": {
                 "title": "Delete {billPaymentLabel}?",
                 "message": "Deleting data does not mean erasing it from openIMIS database. The data will only be deactivated from the viewed list."
             },
-            "mutationLabel": "Delete Bill Payment {billPaymentLabel} of {billCode}"
+            "mutationLabel": "Delete Purchase invoice Payment {billPaymentLabel} of {billCode}"
         }
     },
     "billEvents": {
@@ -2045,7 +2045,7 @@
     "billEventMessage": {
         "create": {
             "label": "Create new Comment",
-            "mutationLabel": "Create Bill Event Message for {billCode}"
+            "mutationLabel": "Create Purchase invoice Event Message for {billCode}"
         }
     },
     "paymentInvoices": {
@@ -2171,8 +2171,8 @@
     "tools.GenerateReportPicker.triggerBtn": "Generate Report",
     "tools.RegistersPage.itemsBlockTitle": "Medical Items",
     "tools.RegistersPage.servicesBlockTitle": "Medical Services",
-    "menu.invoices": "Invoices",
-    "menu.bills": "Bills",
+    "menu.invoices": " Sale invoices",
+    "menu.bills": "Purchase invoices",
     "HealthFacilityPicker.placeholder": "Select a Health Facility",
     "showReconciledOnly": "Show reconciled only",
     "contribution.alreadyUsed": "Receipt already in use for product {productCode}",
@@ -3149,5 +3149,99 @@
     "core.InternalServerErrorPage.title": "",
     "core.InternalServerErrorPage.description": "",
     "insuree.workers.filename": "",
-    "insuree.workers.export": ""
+    "insuree.workers.export": "",
+    "tools.ReportSearcher.moduleName": "",
+    "workerVoucher.menu.voucherList": "",
+    "workerVoucher.menu.voucherAcquirement": "",
+    "workerVoucher.menu.voucherAssignment": "",
+    "workerVoucher.menu.priceManagement": "",
+    "workerVoucher.menu.mobileAppPassword": "",
+    "workerVoucher.searcherResultsTitle": "",
+    "workerVoucher.code": "",
+    "workerVoucher.employer": "",
+    "workerVoucher.export.filename": "",
+    "workerVoucher.export.vouchers": "",
+    "workerVoucher.employer.tradename": "",
+    "workerVoucher.employer.code": "",
+    "workerVoucher.worker": "",
+    "workerVoucher.workers": "",
+    "workerVoucher.worker.code": "",
+    "workerVoucher.worker.lastName": "",
+    "workerVoucher.worker.otherNames": "",
+    "workerVoucher.worker.dob": "",
+    "workerVoucher.status": "",
+    "workerVoucher.assignedDate": "",
+    "workerVoucher.expiryDate": "",
+    "workerVoucher.createdDate": "",
+    "workerVoucher.tooltip.details": "",
+    "workerVoucher.voucherPrice.delete": "",
+    "workerVoucher.placeholder.any": "",
+    "workerVoucher.status.AWAITING_PAYMENT": "",
+    "workerVoucher.status.UNASSIGNED": "",
+    "workerVoucher.status.ASSIGNED": "",
+    "workerVoucher.status.EXPIRED": "",
+    "workerVoucher.status.CANCELED": "",
+    "workerVoucher.status.CLOSED": "",
+    "workerVoucher.VoucherDetailsPage.title": "",
+    "workerVoucher.VoucherDetailsPanel.subtitle": "",
+    "workerVoucher.VoucherAcquirementForm.subtitle": "",
+    "workerVoucher.acquirement.method": "",
+    "workerVoucher.acquirement.method.NONE": "",
+    "workerVoucher.acquirement.method.GENERIC_VOUCHER": "",
+    "workerVoucher.acquirement.method.SPECIFIC_WORKER": "",
+    "workerVoucher.acquire.voucher": "",
+    "workerVoucher.assign.voucher": "",
+    "workerVoucher.vouchersQuantity": "",
+    "workerVoucher.pricePerVoucher": "",
+    "workerVoucher.toBePaid": "",
+    "workerVoucher.action.failed": "",
+    "workerVoucher.action.success": "",
+    "workerVoucher.priceManagement.dialog.title": "",
+    "workerVoucher.priceManagement.dialog.message": "",
+    "workerVoucher.priceManagement.dialog.confirm": "",
+    "workerVoucher.priceManagement.dialog.abandon": "",
+    "workerVoucher.priceManagement": "",
+    "workerVoucher.mobileAppPassword": "",
+    "workerVoucher.password.mustMatch": "",
+    "workerVoucher.password.oldAndNew": "",
+    "workerVoucher.password.success": "",
+    "workerVoucher.password.set.success": "",
+    "workerVoucher.password.failed": "",
+    "workerVoucher.password.set.failed": "",
+    "workerVoucher.mobileAppPassword.header.warning": "",
+    "workerVoucher.mobileAppPassword.warning": "",
+    "workerVoucher.priceManagement.subtitle": "",
+    "workerVoucher.priceManagement.success": "",
+    "workerVoucher.validFrom": "",
+    "workerVoucher.validTo": "",
+    "workerVoucher.acquire.vouchers": "",
+    "workerVoucher.assign.vouchers": "",
+    "workerVoucher.acquire.confirmation": "",
+    "workerVoucher.assign.confirmation": "",
+    "workerVoucher.vouchers.required": "",
+    "workerVoucher.WorkerMultiplePicker.placeholder": "",
+    "workerVoucher.WorkerMultiplePicker.underThreshold": "",
+    "workerVoucher.WorkerMultiplePicker.noOptions": "",
+    "workerVoucher.WorkerMultiplePicker.checkbox.label": "",
+    "workerVoucher.WorkerDateRangePicker.startDate": "",
+    "workerVoucher.WorkerDateRangePicker.endDate": "",
+    "workerVoucher.WorkerDateRangePicker.addButton": "",
+    "workerVoucher.WorkerDateRangePicker.noDates": "",
+    "workerVoucher.WorkerDateRangePicker.deleteRange": "",
+    "workerVoucher.WorkerDateRangePicker.dateRange": "",
+    "workerVoucher.WorkerDateRangePicker.dateRanges": "",
+    "workerVoucher.WorkerDateRangePicker.noRanges": "",
+    "workerVoucher.WorkerDateRangePicker.notAvailable": "",
+    "workerVoucher.unassigned": "",
+    "workerVoucher.VoucherAcquirementPaymentModal.title": "",
+    "workerVoucher.VoucherAssignmentConfirmModal.title": "",
+    "workerVoucher.VoucherAcquirementPaymentModal.confirm": "",
+    "workerVoucher.VoucherAssignmentConfirmModal.confirm": "",
+    "workerVoucher.VoucherAcquirementPaymentModal.confirm.tooltip": "",
+    "workerVoucher.VoucherAssignmentConfirmModal.confirm.tooltip": "",
+    "workerVoucher.close": "",
+    "workerVoucher.searcher.title": "",
+    "workerVoucher.searcher.price": "",
+    "workerVoucher.filter.date": "",
+    "business_config.validation.date_range_overlap": ""
 }
