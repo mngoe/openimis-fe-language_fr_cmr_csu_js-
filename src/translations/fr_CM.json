@@ -757,7 +757,7 @@
     "payment.payment.status.4": "Non-associé",
     "payment.payment.status.5": "Associé",
     "policy.policies.header": "{count} Polices",
-    "policy.policiesOfInsuree.header": "{count} Politices de l'assuré {chfId}",
+    "policy.policiesOfInsuree.header": "{count} Polices de l'assuré {chfId}",
     "policy.policies.productCode": "Code produit",
     "policy.policies.productName": "Nom",
     "policy.policies.enrollDate": "Date d'inscription",
