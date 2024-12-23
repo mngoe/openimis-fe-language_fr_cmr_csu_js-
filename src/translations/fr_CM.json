@@ -2388,7 +2388,7 @@
     "socialProtection.benefitPackage.BenefitPlanDetailPanel.tooltip": "",
     "grievance.menu.grievance.grievances": "",
     "grievance.mainMenuGrievance": "",
-    "home.HomePageContainer.welcomeMessage":  "Welcome {lastName} {otherNames}!",
+    "home.HomePageContainer.welcomeMessage":  "Bienvenue {lastName} {otherNames}!",
     "home.HomePageContainer.messageTitle": "",
     "home.HomePageContainer.healthFacilityStatus": "",
     "home.HomePageContainer.noHealthFacilityAssigned": "",
