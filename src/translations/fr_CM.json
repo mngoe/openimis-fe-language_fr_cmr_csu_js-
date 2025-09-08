@@ -3243,5 +3243,6 @@
     "workerVoucher.searcher.title": "",
     "workerVoucher.searcher.price": "",
     "workerVoucher.filter.date": "",
-    "business_config.validation.date_range_overlap": ""
+    "business_config.validation.date_range_overlap": "",
+    "claimSummaries.rejectSelected": "Rejetter la sélection"
 }

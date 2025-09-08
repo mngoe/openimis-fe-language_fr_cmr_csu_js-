@@ -3147,5 +3147,6 @@
     "core.ForbiddenPage.title": "",
     "core.ForbiddenPage.description": "",
     "core.InternalServerErrorPage.title": "",
-    "core.InternalServerErrorPage.description": ""
+    "core.InternalServerErrorPage.description": "",
+    "claimSummaries.rejectSelected": "Rejetter la sélection"
 }
