@@ -3249,5 +3249,6 @@
     "claim.claimAttachment.predefinedType": "Type prédefini",
     "claim.rejectReason": "Raison de rejet",
     "claim.validate": "Valider",
-    "claim.cancel": "Annuler"
+    "claim.cancel": "Annuler",
+    "claim.RejectClaim.mutationLabel": "Rejet de(s) prestation(s)"
 }
