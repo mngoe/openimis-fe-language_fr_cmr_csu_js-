@@ -3148,5 +3148,7 @@
     "core.ForbiddenPage.description": "",
     "core.InternalServerErrorPage.title": "",
     "core.InternalServerErrorPage.description": "",
-    "claimSummaries.rejectSelected": "Rejetter la sélection"
+    "claimSummaries.rejectSelected": "Rejetter la sélection",
+    "claim.claimAttachment.generalType": "Type",
+    "claim.claimAttachment.predefinedType": "Type prédefini"
 }

@@ -3305,7 +3305,11 @@ var messages_fr_cm_csu = {
 	"workerVoucher.searcher.price": "",
 	"workerVoucher.filter.date": "",
 	"business_config.validation.date_range_overlap": "",
-	"claimSummaries.rejectSelected": "Rejetter la sélection"
+	"claimSummaries.rejectSelected": "Rejetter la sélection",
+	"claim.claimAttachment.generalType": "Type",
+	"claim.claimAttachment.predefinedType": "Type prédefini",
+	"claim.rejectReason": "Raison de rejet",
+	"claim.validate": "Valider"
 };
 
 var appName = "openIMIS";
