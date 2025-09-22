@@ -3309,7 +3309,11 @@ var messages_fr_cm_csu = {
 	"claim.claimAttachment.generalType": "Type",
 	"claim.claimAttachment.predefinedType": "Type prédefini",
 	"claim.rejectReason": "Raison de rejet",
-	"claim.validate": "Valider"
+	"claim.validate": "Valider",
+	"claim.cancel": "Annuler",
+	"claim.RejectClaim.mutationLabel": "Rejet de(s) prestation(s)",
+	"policy.product.invalidMinAge": "Le bénéficiaire n'a pas l'âge minimal requis",
+	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis"
 };
 
 var appName = "openIMIS";
