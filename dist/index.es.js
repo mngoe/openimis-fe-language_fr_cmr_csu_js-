@@ -3305,7 +3305,8 @@ var messages_fr_cm_csu = {
 	"claim.cancel": "Annuler",
 	"claim.RejectClaim.mutationLabel": "Rejet de(s) prestation(s)",
 	"policy.product.invalidMinAge": "Le bénéficiaire n'a pas l'âge minimal requis",
-	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis"
+	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis",
+	"claim.edit.items.qtyAdjusted": "Quantité Ajusté"
 };
 
 var appName = "openIMIS";
