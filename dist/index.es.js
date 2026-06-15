@@ -2248,7 +2248,8 @@ var messages_fr_cm_csu = {
 	"tools.ExtractsPage.ClaimsUploadBlock.uploadBtn": "Téléverser",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.okBtn": "OK",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.success": "Succès",
-	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.title": "Téléversement des prestations effectué",
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.title": "Téléversement réussi",
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.done": "Les prestations ont été téléversées avec succès",
 	"tools.ExtractsPage.FeedbacksUploadBlock.title": "Téléverser les retours",
 	"tools.ExtractsPage.FeedbacksUploadBlock.uploadBtn": "Téléverser",
 	"tools.ExtractsPage.FeedbacksUploadBlock.ResultDialog.okBtn": "OK",
@@ -3306,7 +3307,7 @@ var messages_fr_cm_csu = {
 	"claim.RejectClaim.mutationLabel": "Rejet de(s) prestation(s)",
 	"policy.product.invalidMinAge": "Le bénéficiaire n'a pas l'âge minimal requis",
 	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis",
-	"claim.edit.items.qtyAdjusted": "Quantité Ajusté"
+	"claim.edit.items.qtyAdjusted": "Quantité Ajustée"
 };
 
 var appName = "openIMIS";
