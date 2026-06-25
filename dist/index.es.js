@@ -3307,7 +3307,10 @@ var messages_fr_cm_csu = {
 	"claim.RejectClaim.mutationLabel": "Rejet de(s) prestation(s)",
 	"policy.product.invalidMinAge": "Le bénéficiaire n'a pas l'âge minimal requis",
 	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis",
-	"claim.edit.items.qtyAdjusted": "Quantité Ajustée"
+	"claim.edit.items.qtyAdjusted": "Quantité Ajustée",
+	"insuree.chfIdMaxLengthRequired": "Maximum requis: {maxLength} caractères",
+	"insuree.chfIdMinLengthRequired": "Minimum requis: {minLength} caractères",
+	"policy.minChequeNumberRequired": "Minimum requis: {minChequeNumber} caractères"
 };
 
 var appName = "openIMIS";
