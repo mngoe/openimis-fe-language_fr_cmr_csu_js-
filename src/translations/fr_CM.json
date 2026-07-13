@@ -3257,5 +3257,8 @@
     "claim.edit.items.qtyAdjusted": "Quantité Ajustée",
     "insuree.chfIdMaxLengthRequired": "Maximum requis: {maxLength} caractères",
     "insuree.chfIdMinLengthRequired": "Minimum requis: {minLength} caractères",
-    "policy.minChequeNumberRequired": "Minimum requis: {minChequeNumber} caractères"
+    "policy.minChequeNumberRequired": "Minimum requis: {minChequeNumber} caractères",
+    "policy.action.ForcePolicyExpiration.tooltip": "Forcer l'expiration",
+    "policy.forcePolicyExpirationDialog.title": "Forcer l'expiration de la police",
+    "policy.forcePolicyExpirationDialog.message": "Êtes-vous sûr de vouloir forcer l'expiration de la police {label} ?"
 }
