@@ -3260,5 +3260,6 @@
     "policy.minChequeNumberRequired": "Minimum requis: {minChequeNumber} caractères",
     "policy.action.ForcePolicyExpiration.tooltip": "Forcer l'expiration",
     "policy.forcePolicyExpirationDialog.title": "Forcer l'expiration de la police",
-    "policy.forcePolicyExpirationDialog.message": "Êtes-vous sûr de vouloir forcer l'expiration de la police {label} ?"
+    "policy.forcePolicyExpirationDialog.message": "Êtes-vous sûr de vouloir forcer l'expiration de la police {label} ?",
+    "policy.ForcePolicyExpiration.mutationLabel": "Expiration de la police {policy}"
 }
