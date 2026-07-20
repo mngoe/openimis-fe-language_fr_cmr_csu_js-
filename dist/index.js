@@ -5005,7 +5005,10 @@ var messages_fr_cm_csu = {
 	"claimSummaries.rejectSelected": "Rejeter la sélection",
 	"claim.rejectReason": "Raison du rejet",
 	"claim.validate": "Valider la prestation",
-	"claim.cancel": "Annuler la prestation"
+	"claim.cancel": "Annuler la prestation",
+	"tools.ExtractsPage.password.label": "Mot de passe",
+	"tools.ExtractsPage.ResultDialog.downloadBtn": "Télécharger",
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.error": "Echec de téléchargement"
 };
 
 var appName = "openIMIS";
