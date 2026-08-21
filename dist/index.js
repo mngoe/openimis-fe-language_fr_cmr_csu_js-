@@ -2541,7 +2541,11 @@ var messages_fr_cm_csu = {
 	"tools.ExtractsPage.ClaimsUploadBlock.uploadBtn": "Téléverser",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.okBtn": "OK",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.success": "Succès",
+<<<<<<< HEAD
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.title": "Téléversement des prestations effectué",
+=======
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.title": "Téléversement réussi",
+>>>>>>> ff32836f9b90072fd852af521de4c47558617cd3
 	"tools.ExtractsPage.FeedbacksUploadBlock.title": "Téléverser les retours",
 	"tools.ExtractsPage.FeedbacksUploadBlock.uploadBtn": "Téléverser",
 	"tools.ExtractsPage.FeedbacksUploadBlock.ResultDialog.okBtn": "OK",
@@ -4985,14 +4989,27 @@ var messages_fr_cm_csu = {
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.errorPassword": "Verifier le mot de passe",
 	"policy.product.invalidMinAge": "Le bénéficiaire n'a pas l'âge minimal requis",
 	"policy.product.invalidMaxAge": "Le bénéficiaire a dépassé l'âge maximal requis",
+<<<<<<< HEAD
 	"claim.edit.items.qtyAdjusted": "Quantité ajustée",
 	"insuree.chfIdMaxLengthRequired": "Maximum de caractères requis",
 	"insuree.chfIdMinLengthRequired": "Minimum requis:{minLength} caractères",
 	"policy.minChequeNumberRequired": "Minimal requis:{minChequeNumber} caractères",
+=======
+	"claim.edit.items.qtyAdjusted": "Quantité Ajustée",
+	"insuree.chfIdMaxLengthRequired": "Maximum requis: {maxLength} caractères",
+	"insuree.chfIdMinLengthRequired": "Minimum requis: {minLength} caractères",
+	"policy.minChequeNumberRequired": "Minimum requis: {minChequeNumber} caractères",
+>>>>>>> ff32836f9b90072fd852af521de4c47558617cd3
 	"policy.action.ForcePolicyExpiration.tooltip": "Forcer l'expiration",
 	"policy.forcePolicyExpirationDialog.title": "Forcer l'expiration de la police",
 	"policy.forcePolicyExpirationDialog.message": "Êtes-vous sûr de vouloir forcer l'expiration de la police {label} ?",
 	"policy.ForcePolicyExpiration.mutationLabel": "Expiration de la police {policy}",
+<<<<<<< HEAD
+=======
+	"tools.ExtractsPage.password.label": "Mot de passe",
+	"tools.ExtractsPage.ResultDialog.downloadBtn": "Télécharger",
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.error": "Echec de téléchargement",
+>>>>>>> ff32836f9b90072fd852af521de4c47558617cd3
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.done": "Téléversement effectué avec succès",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.ongoing": "Téléversement des prestations cours...",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.titleOngoing": "Téléversement en cours",
@@ -5002,6 +5019,7 @@ var messages_fr_cm_csu = {
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.failed": "téléversement échouées: {value}",
 	"tools.ExtractsPage.ClaimsUploadBlock.errorMessage": "Une erreur s'est produite lors de l'import",
 	"tools.ExtractsPage.ClaimsUploadBlock.badgatewayError": "Gateway Time-out",
+<<<<<<< HEAD
 	"claimSummaries.rejectSelected": "Rejeter la sélection",
 	"claim.rejectReason": "Raison du rejet",
 	"claim.validate": "Valider la prestation",
@@ -5009,6 +5027,9 @@ var messages_fr_cm_csu = {
 	"tools.ExtractsPage.password.label": "Mot de passe",
 	"tools.ExtractsPage.ResultDialog.downloadBtn": "Télécharger",
 	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.error": "Echec de téléchargement"
+=======
+	"tools.ExtractsPage.ClaimsUploadBlock.ResultDialog.errorPassword": "Verifier le mot de passe"
+>>>>>>> ff32836f9b90072fd852af521de4c47558617cd3
 };
 
 var appName = "openIMIS";
